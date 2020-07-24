@@ -1,3 +1,12 @@
+
+### 
+```
+sudo apt install liboctave-dev
+wget -c 'https://sourceforge.net/projects/octave/files/Octave%20Forge%20Packages/Individual%20Package%20Releases/image-2.12.0.tar.gz/download?use_mirror=jaist&download=' -O image-2.12.0.tar.gz
+octave --eval "pkg install image-2.12.0.tar.gz"
+octave --eval \"pkg load image;alpha_blend_news....
+```
+
 # Audio-driven Talking Face Video Generation with Learning-based Personalized Head Pose
 
 We provide PyTorch implementations for our arxiv paper "Audio-driven Talking Face Video Generation with Learning-based Personalized Head Pose"(http://arxiv.org/abs/2002.10137).
